@@ -1,0 +1,44 @@
+<!--pages/index1/index1.wxml-->
+<view class="big_box">
+<!-- 将三个view当做按钮 跳转到分类上 -->
+<navigator url='/pages/Qing/Qing'>
+  <view class='toqinghua ' > 
+    <view>    
+      <cover-image src="../../images/index/qinghua.jpeg"></cover-image>
+    </view>
+    <text class='tuwei_text'>"土味情话一用,爱情不就来了吗"</text>
+  </view>
+</navigator>
+<navigator url="/pages/boyfriend/boyfriend">
+  <view class='toboyfriend'  >
+    <view>    
+      <cover-image src="../../images/index/hongnanpengyou.jpg" class='boy_img'></cover-image>
+    </view>
+      <text class="hongren_text">"哄男朋友必备!"</text>
+  </view>
+</navigator>
+<navigator url='/pages/girlfriend/girlfriend'>
+  <view class='togirlfriend'>
+    <view>
+       <cover-image src="../../images/index/hongnvpengyou.jpeg" class='girl_img'></cover-image>
+    </view>
+    <text class="hongren_text girl">"哄女朋友必备!"</text>
+   </view>
+</navigator>
+<navigator url="/pages/greentea/greentea">
+  <view class='totea'>
+     <view >
+       <cover-image src="../../images/index/lvcha.jpg" class='lvcha_img'></cover-image>
+    </view>
+    <text class="greentea_text">茶言茶语</text>
+  </view>
+</navigator>
+<navigator url="/pages/sea/sea">
+  <view class='tosea' >
+     <view class='haiwang'>
+       <cover-image src="../../images/index/zhananyulu.jpg" class='haiwang_img'></cover-image>
+    </view>
+    <text class="haiwang_text">海王语录</text>
+  </view>
+</navigator>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/Qing/Qing.wxml-->
+<view class="big_box">
+    <view wx:for="{{qinghua}}" wx:key="id" class='item_text'>
+        <text>{{item.value}}</text>
+    </view>
+</view>

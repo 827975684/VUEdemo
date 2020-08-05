@@ -1,0 +1,425 @@
+/* 头部导航栏css */
+*{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+body{
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;}
+.h_border{
+    width:100%;
+    background-color: #242424;
+    box-sizing: border-box;
+}
+.h_border::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.nav{
+    width:1100px;
+    height:70px;
+    line-height:70px;
+    margin:0px auto;
+}
+.my_logo{
+    float: left;
+    width:160px;
+    background: url(..//img/header/topbar.png);
+    background-position: 0px 0px;
+    text-indent:-9999px;
+}
+/*text-indent隐藏字体*/		
+.ul_styled{
+    list-style-type: none;
+    float: left;
+    margin-left:20px;
+}
+.ul_styled>li{
+    float:left;
+    padding:0px 20px ;
+}
+.ul_styled>li>a{
+    text-decoration: none;
+    color:#cccccc;
+    font-size:14px;
+    display:block;
+}
+#nav_ul_lastli{
+    position: relative;
+}
+.list_hot{
+    width:25px;
+    height:10px;
+    position: absolute;
+    top:-10px;left:90px;
+}
+.list_hot>img{
+    width:100%;
+    height:100%;
+}
+.ul_styled>li:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
+.ul_styled>li:hover .ul_styled>li>a{
+    color: #FFFFFF; 
+}
+/* 搜索框 */
+.search_1{
+    width:160px;
+    float:left;
+    background-color: #FFFFFF;
+    margin:20px 0px 0px 70px ;
+    height:32px;
+    position: relative;
+    overflow: hidden;
+    border-radius:20px;
+}
+.search_1::before{
+    content: url(../img/header/search1.png);
+    display:block;
+    position: absolute;
+    top:-13px;
+    left:4px;
+    margin-top:2px;
+}
+.search_1>input{
+    width:115px;
+    height:16px; 
+    position: absolute;
+    top:9px;
+    left:30px;
+    border:none;
+    outline:medium;
+    font-size:12px;
+}
+/* 创作者中心 */
+.chuangzuo{
+    display: block;
+    width:90px;
+    height:30px;
+    float: left;
+    border:1px solid #4f4f4f;
+    color: #ccc;
+    margin:20px 0px 0px 10px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+}
+/* 下部分导航栏 */
+.h_border2{
+    width:100%;
+    height:35px;
+    background-color:rgb(194,12,12);
+}
+.h_2{
+    width:1100px;
+    margin:0px auto;
+    height:35px;
+}
+.h_2_buttom{
+    margin-left:210px;
+    width:743px;height:35px;}
+.h_2_buttom>li{float: left; 
+    margin-right:40px
+}
+.h_2_buttom>li>a{
+    text-decoration: none;
+    color:#FFFFFF;display: block;
+    height:15px;
+    line-height: 15px;
+    text-align: center;
+    margin: 7px 0px;
+    padding:3px 10px;
+    border-radius:20px;
+}
+.h_2_buttom>li>a:hover{
+    background-color:rgb(164, 0, 17);
+}
+/**********************************主题*****************************/
+section{
+    width:100%;
+}
+.section_s{
+    background: white;
+    width:980px;
+    height:1700px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding:40px;
+}
+.cateListBox{
+    width:900px;
+}
+.hd>h3{
+    font-size: 25px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding-bottom:20px;
+    border-bottom:1px solid #999 ;
+}
+.hd>span{
+    display: inline-block;
+    
+}
+.hd>h3>a{
+    display: inline-block;
+    width: 75px;
+    height:26px;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+    color:#666;
+    font-size:15px;
+    float: right;
+    background: url(../img/gedan/button.png);
+    background-position: 0 -64px;
+}
+
+/* 分类 */
+.bd{
+    padding:10px 0px 10px ;
+    border-bottom:1px solid #666
+}
+.bd>dl{
+    display: block;
+    width:900px;    
+}
+.bd>dl::after{
+    display: block;
+    content:"";
+    clear: both;
+}
+.bd>dl>dt{
+    width:100px;
+    height:30px;
+    float: left;
+    line-height:30px;
+}
+.bd>dl>dt>span{
+    display: block;
+    float: left;
+    font-size: 14px;
+   
+    
+}
+.bd>dl>dt>i{
+    display:block;
+    float: left;
+    width:23px;
+    height:23px;
+    margin:2px 10px 0px 20px ;
+}
+/* 小图片 */
+.yuzhong{
+  background: url(../img/gedan/icon.png);
+  background-position: -20px -735px;
+}
+.fengge{
+    background: url(../img/gedan/icon.png);
+    background-position: 0 -60px;
+}
+.changjing{
+    background: url(../img/gedan/icon.png);
+    background-position: 0 -88px;
+}
+.qinggan{
+    background: url(../img/gedan/icon.png);
+    background-position: 0 -117px;
+}
+.zhuti{
+    background: url(../img/gedan/icon.png);
+    background-position: 0 -141px;
+}
+
+
+
+
+.bd>dl{
+    margin: 5px 0px ;
+}
+.bd>dl>dd{
+    width:800px;
+    float: left;
+    box-sizing: border-box;
+    padding:5px 10px 5px;
+    border-left: 1px solid #999;
+}
+.bd>dl>dd>a{
+    display:inline-block;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-decoration: none;
+    color: #666;
+}
+.bd>dl>dd>a:hover{
+    background: #ccc;
+}
+
+.bd>dl>dd>span{
+    display: inline-block;
+    margin:0px 6px
+}
+
+
+
+/* 歌单 */
+.gd{
+    width:950px;
+    height:1550px;
+    margin:20px 0px 0px -50px;
+}
+.gd_fengmian{
+    float: left;
+    display: inline-block;
+    width: 140px;
+    height: 188px;
+    overflow: hidden;
+    padding: 0 0 30px 50px;
+    line-height: 1.4;
+}
+.gd_fengmian>div{
+    position: relative;
+    width: 140px;
+    height: 140px;
+}
+.gd_fengmian>div>img{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.gd_fengmian>div>a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/gedan/coverall.png);
+    background-position: 0 0;
+}
+.gd_fm_bottom{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    background-position: 0 -537px;
+    color: #ccc;
+    background-color:rgba(100,100,100,0.5);
+}
+.gd_fm_bottom>i{
+    display: inline-block;
+    float: left;
+    width: 14px;
+    height: 11px;
+    background: url(../img/gedan/iconall.png);
+    background-position: 0 -24px;
+    margin: 9px 5px 9px 10px;
+}
+.gd_fm_bottom>span{
+    display: inline-block;
+    margin:7px 0px 0px 0px ;
+}
+.gd_fm_bottom>a{
+    display: inline-block;
+    width:16px;
+    height: 17px;
+    float: right;
+    background: url(../img/gedan/iconall.png);
+    background-position: 0 0;
+    margin:6px 10px 0px 0px;
+}
+.gd_fm_bottom>a:hover{
+    background-position: 0 -60px;
+}
+.list_name{
+    box-sizing: border-box;
+    padding: 5px auto 0px;
+    height:20px;
+    line-height: 20px;
+    margin-top:5px;
+}
+.top{
+    display: block;
+    line-height: 20px;
+}
+.top>span{
+    display:block;
+    float: left;
+    margin-right:10px;
+}
+.top>a{
+    font-size: 13px;
+    text-decoration: none;
+    color:#666;
+}
+.list_name>a{
+    display: inline-block;
+    max-width: 140px;
+    height:20px;
+    line-height: 20px;
+    text-decoration: none;
+    font-size:14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{width:100%;height:170px;border-top: 1px solid #d3d3d3;}
+.footer_center{width:982px;margin: 0px auto;}
+/* 左侧 */
+.fc_left{width:520px;padding:20px 0px 0px 0px;float: left;}
+.fc_left_ul{width:520px;height:24px;}
+.fc_left_ul>li{float:left;margin-right: 10px;}
+.fc_left_ul>li::after{content: '|';margin-left: 10px;color:#999}
+.fc_left>p{margin:10px 0px }
+/* 改颜色 */
+.fc_left a{color:  #999;text-decoration: none;}
+.fc_left a:hover{text-decoration: underline;}
+/* 右侧 */
+.fc_right{float:left;width:320px;margin:30px 0px 0px 140px }
+.fc_right>ul>li{float:left;margin-right:25px;}
+
+.fc_right>ul>li>a{display:block;width:47px;height:45px;background-size: 110px 450px;}
+.fc_right_li1{background: url(../img/index/foot_enter_new.png);background-position: -63px -101px;}
+.fc_right_li2{background: url(../img/index/foot_enter_new.png);background-position: 0 0;}
+.fc_right_li3{background: url(../img/index/foot_enter_new.png);background-position: -63px -50px;}
+.fc_right_li4{background: url(../img/index/foot_enter_new.png);background-position: 0 -101px;}
+
+.fc_right>ul>li>span{display:block;width:55px;height:15px; background-size: 180px 100px;}
+.fc_right_s1{background: url(../img/index/foot_enter_tt.png) no-repeat;background-position: -1px -91px;}
+.fc_right_s2{background: url(../img/index/foot_enter_tt.png) no-repeat;background-position: 0 0 ;}
+.fc_right_s3{background: url(../img/index/foot_enter_tt.png) no-repeat;background-position: 0 -54px ;}
+.fc_right_s4{background: url(../img/index/foot_enter_tt.png) no-repeat;background-position: -1px -72px ;}
+
+

@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+}
+ 
+/***************** 导航栏 *****************/
+header{
+    min-width:900px;
+    position: relative;
+    box-sizing: border-box;
+    padding:0px 50px;
+    width:100%;
+    height:50px;
+    position: fixed;
+    top:0px;
+    background-color: white;
+    z-index: 10000;
+}
+.wl_logo{
+    width:100px;
+    height:50px;
+    float: left;
+    position: absolute;
+    left:40px;
+}
+.nav{
+    position: absolute;
+    left:220px;
+    width:600px;
+    float: left;
+}
+.nav::after{
+    display: block;
+    content:'';
+    clear: both;
+}
+.nav>li{
+    display: block;
+    height:50px;
+    list-style: none;
+    float: left;
+    margin:0px 30px;
+    line-height: 50px;
+    cursor: pointer;
+    font-size:12px;
+   
+}
+.nav>li>a{
+    display: block;
+}
+.nav>li:hover{
+    border-bottom: 2px solid black;
+    height:48px;
+     
+}
+#es8,#es6,#ec6{
+    width:37px;
+}
+
+#es8{
+    background: url(../images/header/es8-logo.svg) no-repeat;
+    background-position:0px 20px ;
+}
+#es8>a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+#es6{
+    background: url(../images/header/es6-logo.svg) no-repeat;
+    background-position:0px 20px ;
+}
+#ec6{
+    background: url(../images/header/ec6-logo.svg) no-repeat;
+    background-position:0px 20px ;
+}
+
+/* 试驾 */
+.sj{
+    margin:10px 0px 0px 100px;
+    position: absolute;
+    right:20px;
+    border:1px solid black;
+    width:150px;
+    height:30px;
+    cursor: pointer;
+}
+.sj>a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    transition: all 1s ease 0s;
+}
+.sj:hover{
+    background-color: black;
+    color:white;
+}
+.sj:hover .sja{
+    color: white;
+}
+
+
+/* 主体 */
+section{
+    margin-top: 50px;
+    width:100%;
+    min-width:900px;
+}
+
+.field_item{
+    width:100%;
+    height:662px;
+    position: relative;
+    overflow: hidden;
+}
+/* 汽车图片相对定位胡 */
+.picCar{
+    position: absolute; 
+}
+ 
+.showCar{
+    position: absolute;
+}
+.showCar_btn{
+    width:250px;
+    height:40px;
+     border:2px solid white ;
+     text-align: center;
+     line-height: 40px;
+     color:white;
+     margin-top: 20px;
+     cursor: pointer;
+}
+.showCar_btn>p>a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* 初始隐藏车辆信息 */
+/* es8 */
+.s_es8{
+    top:220px;
+    left: 900px;   
+}
+
+/* es6 */
+.s_es6{
+     top:250px;
+     left:150px;
+     opacity: 0;
+     
+}
+.s_es6>img{
+    width:90%;
+}
+
+/* ec6 */
+.s_ec6{
+    top:250px;
+    left:150px;
+    opacity: 0;
+    
+}
+.s_ec6>img{
+    width:80%;
+}
+
+/* item4 */
+.item_id_4{
+    box-sizing: border-box;
+    padding:0px 8px;
+    height:710px;
+    margin-top:20px;
+}
+.item_id_4>div>img{
+    width:100%;
+}
+.item4_left{
+    height:662px;
+    position: absolute;
+    width:49%;
+    
+     
+}
+
+.item4_right{
+    height:662px;
+    position: absolute;
+    left:750px;
+    width:49%;
+     
+}
+
+.showCar_item4{
+    position: absolute;
+    color:white;
+    font-family: '黑体';
+    top:200px;
+    left:220px;
+    text-align: center;
+    opacity: 0;
+}
+.showCar_item4>p{
+    font-size:23px;
+    margin:10px auto;
+}
+.showCar_item4>img{
+    width:200px;
+}
+.showCar_item4>a{
+    display:block;
+    width:250px;
+    height:40px;
+    border:2px solid white;
+    line-height: 40px;
+    margin:20px auto;
+    cursor: pointer;
+}
+ 
+/* item5 */
+.item_id_5{
+    margin-top:30px;
+    background-color:#F7F8FA;
+    box-sizing: border-box;
+    padding:40px 0px;
+}
+.item_id_5>div{
+    position: absolute;
+}
+
+  /* 左边 */
+.item5_left{
+    top:200px;
+    left:140px;
+    font-size:20px;
+}
+.logo{
+    font-size:30px;
+}
+
+.line{
+    width: 30px;
+    height: 1px;
+    background: #00BEBE;
+    margin: 20px 0;
+}
+.app_btn{
+    text-decoration: none;
+    display: block;
+    border:1px solid black;
+    text-align: center;
+    width:250px;;
+    height:40px;
+    line-height: 40px;
+    margin:30px 0px ;
+    color: #000F16;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+
+
+
+/* 中间 */
+ 
+.item5_center{
+    
+    left:590px;
+}
+
+/* 右边 */
+.item5_right{
+    left:1100px;
+    top:150px;
+    text-align: center;
+    font-size:40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* footer */
+footer{
+    margin:100px 0px;
+}
+footer::after{
+    display: block;
+    content:"";
+    clear: both;
+}
+.footer_ul>li{
+    list-style-type: none;
+    float: left;
+    margin:0px 20px
+}

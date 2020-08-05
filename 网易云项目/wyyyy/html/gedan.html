@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歌单 - 网易云音乐</title>
+    <link href='../css/gedan.css' rel="stylesheet">
+    <link rel='shortcut icon' href='../img/favicon.ico'></link>
+</head>
+<body>
+    <header>
+        <div class='h_border'>
+            <div class='nav'>
+                <a href='#'  hidefocus="true">
+                    <h1 class='my_logo'>网易云音乐</h1>
+                </a> 	
+                <ul class='ul_styled'>
+                    <li><a href=''>发现音乐</a></li>
+                    <li><a href=''>我的音乐</a></li>
+                    <li><a href=''>朋友</a></li>
+                    <li><a href='https://music.163.com/store/product' target="_blank">商城</a></li>
+                    <li><a href='https://music.163.com/nmusician/web/index#/'  target="_blank">音乐人</a></li>
+                    <li id='nav_ul_lastli'><a href=''>下载客户端</a><div class='list_hot'><img src='../img/header/hot.png'></div>  </li>
+                </ul>
+                <div class='search_1'>
+                    <input type='text' placeholder="音乐/视频/电台/用户" >
+                </div>
+                    <a href='#' class='chuangzuo'>创作者中心</a>
+            </div>
+        </div>
+        <div class='h_border2'>
+            <div class='h_2'>
+                <ul class='h_2_buttom'>
+                    <li><a href='../html/index.html'>推荐</a></li>
+                    <li><a href='../html/paihang.html'>排行榜</a></li>
+                    <li><a href='../html/gedan.html'>歌单</a></li>
+                    <li><a href='#'>主播电台</a></li>
+                    <li><a href='#'>歌手</a></li>
+                    <li><a href='#'>新碟上架</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+           <div class='section_s'>
+               <div class='cateListBox'>
+                   <div class='hd'>
+                       <h3>
+                           <span>全部</span>
+                         <a href='#'>全部风格</a>
+                       </h3>
+                   </div>
+                   <div class='bd'>
+                       <dl>
+                           <dt>
+                               <i class='yuzhong'></i><span>语种</span>
+                           </dt>
+                           <dd>
+                               <a href='#'>华语</a>
+                               <span>|</span>
+                               <a href='#'>欧美</a>
+                               <span>|</span>
+                               <a href='#'>日语</a>
+                               <span>|</span>
+                               <a href='#'>韩语</a>
+                               <span>|</span>
+                               <a href='#'>粤语</a>
+                               <span>|</span>
+                           </dd>
+                       </dl>
+                       <dl>
+                           <dt>
+                               <i class='fengge'></i><span>风格</span>
+                           </dt>
+                           <dd>
+                            <a href='#'>流行</a>
+                            <span>|</span>
+                            <a href='#'>摇滚</a>
+                            <span>|</span>
+                            <a href='#'>民谣</a>
+                            <span>|</span>
+                            <a href='#'>电子</a>
+                            <span>|</span>
+                            <a href='#'>舞曲</a>
+                            <span>|</span>
+                            <a href='#'>说唱</a>
+                            <span>|</span>
+                            <a href='#'>轻音乐</a>
+                            <span>|</span>
+                            <a href='#'>爵士</a>
+                            <span>|</span>
+                            <a href='#'>乡村</a>
+                            <span>|</span>
+                            <a href='#'>R&B/Soul</a>
+                            <span>|</span>
+                            <a href='#'>古典</a>
+                            <span>|</span>
+                            <a href='#'>民族</a>
+                            <span>|</span>
+                            <a href='#'>英伦</a>
+                            <span>|</span>
+                            <a href='#'>金属</a>
+                            <span>|</span>
+                            <a href='#'>朋克</a>
+                            <span>|</span>
+                            <a href='#'>蓝调</a>
+                            <span>|</span>
+                            <a href='#'>雷鬼</a>
+                            <span>|</span>
+                            <a href='#'>世界音乐</a>
+                            <span>|</span>
+                            <a href='#'>拉丁</a>
+                            <span>|</span>
+                            <a href='#'>New Age</a>
+                            <span>|</span>
+                            <a href='#'>古风</a>
+                            <span>|</span>
+                            <a href='#'>后摇</a>
+                            <span>|</span>
+                            <a href='#'>Bossa Nova</a>
+                            <span>|</span>
+                           </dd>
+                       </dl>
+                       <dl>
+                         <dt>
+                             <i class='changjing'></i><span>场景</span>
+                         </dt>
+                         <dd>
+                            <a href='#'>清晨</a>
+                            <span>|</span>
+                            <a href='#'>夜晚</a>
+                            <span>|</span>
+                            <a href='#'>学习</a>
+                            <span>|</span>
+                            <a href='#'>工作</a>
+                            <span>|</span>
+                            <a href='#'>午休</a>
+                            <span>|</span>
+                            <a href='#'>下午茶</a>
+                            <span>|</span>
+                            <a href='#'>地铁</a>
+                            <span>|</span>
+                            <a href='#'>驾车</a>
+                            <span>|</span>
+                            <a href='#'>运动</a>
+                            <span>|</span>
+                            <a href='#'>旅行</a>
+                            <span>|</span>
+                            <a href='#'>散步</a>
+                            <span>|</span>
+                            <a href='#'>酒吧</a>
+                            <span>|</span>
+                         </dd>  
+                       </dl>
+                       <dl>
+                           <dt>
+                               <i class='qinggan'></i><span>情感</span>
+                           </dt>
+                           <dd>
+                            <a href='#'>怀旧</a>
+                            <span>|</span>
+                            <a href='#'>清新</a>
+                            <span>|</span>
+                            <a href='#'>浪漫</a>
+                            <span>|</span>
+                            <a href='#'>伤感</a>
+                            <span>|</span>
+                            <a href='#'>治愈</a>
+                            <span>|</span>
+                            <a href='#'>放松</a>
+                            <span>|</span>
+                            <a href='#'>孤独</a>
+                            <span>|</span>
+                            <a href='#'>感动</a>
+                            <span>|</span>
+                            <a href='#'>兴奋</a>
+                            <span>|</span>
+                            <a href='#'>快乐</a>
+                            <span>|</span>
+                            <a href='#'>安静</a>
+                            <span>|</span>
+                            <a href='#'>思念</a>
+                            <span>|</span>
+                           </dd>
+                       </dl>
+                       <dl>
+                           <dt>
+                               <i class='zhuti'></i><span>主题</span>
+                           </dt>
+                           <dd>
+                            <a href='#'>综艺</a>
+                            <span>|</span>
+                            <a href='#'>影视原声</a>
+                            <span>|</span>
+                            <a href='#'>ACG</a>
+                            <span>|</span>
+                            <a href='#'>儿童</a>
+                            <span>|</span>
+                            <a href='#'>校园</a>
+                            <span>|</span>
+                            <a href='#'>游戏</a>
+                            <span>|</span>
+                            <a href='#'>70后</a>
+                            <span>|</span>
+                            <a href='#'>80后</a>
+                            <span>|</span>
+                            <a href='#'>90后</a>
+                            <span>|</span>
+                            <a href='#'>网络歌曲</a>
+                            <span>|</span>
+                            <a href='#'>KTV</a>
+                            <span>|</span>
+                            <a href='#'>经典</a>
+                            <span>|</span>
+                            <a href='#'>翻唱</a>
+                            <span>|</span>
+                            <a href='#'>吉他</a>
+                            <span>|</span>
+                            <a href='#'>钢琴</a>
+                            <span>|</span>
+                            <a href='#'>器乐</a>
+                            <span>|</span>
+                            <a href='#'>榜单</a>
+                            <span>|</span>
+                            <a href='#'>00后</a>
+                            <span>|</span>
+                           </dd>
+                       </dl>
+                   </div>
+               </div>
+               <ul class='gd'>
+                    <li class='gd_fengmian'>
+                      <div>
+                         <img src='../img/gedan/gedan1.jpg'>
+                         <a href='#' title="歌里藏着小宇宙：星河在你耳中流动"></a>
+                        <div class='gd_fm_bottom'>
+                            <i></i>
+                            <span>420万</span>
+                            <a href='#'></a>
+                        </div>
+                      </div>
+                      <p class='list_name'>
+                          <a href='#' title='歌里藏着小宇宙：星河在你耳中流动'>歌里藏着小宇宙：星河在你耳中流动</a>
+                      </p>
+                      <p class='top'>
+                          <span>by</span><a href='#' class='user'> 今日份寒溪</a>
+                      </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                    <div>
+                       <img src='../img/gedan/gedan2.jpg'>
+                       <a href='#' title="歌里藏着小宇宙：星河在你耳中流动"></a>
+                      <div class='gd_fm_bottom'>
+                          <i></i>
+                          <span>420万</span>
+                          <a href='#'></a>
+                      </div>
+                    </div>
+                    <p class='list_name'>
+                        <a href='#' title="日系男声|不期而遇的温柔">日系男声|不期而遇的温柔</a>
+                    </p>
+                    <p class='top'> 
+                         <span>by</span><a href='#'>四季里的懒睡猫</a>
+                    </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan3.jpg'>
+                           <a href='#' title="歌里藏着小宇宙：星河在你耳中流动"></a>
+                          <div class='gd_fm_bottom'>
+                              <i></i>
+                              <span>420万</span>
+                              <a href='#'></a>
+                          </div>
+                        </div>
+                        <p class='list_name'>
+                            <a href='#' title="超好听的高潮翻唱呀">超好听的高潮翻唱呀</a>
+                        </p>
+                        <p class='top'>
+                            <span>by</span><a href='#'>我鲁班不坑</a>
+                        </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan4.jpg'>
+                           <a href='#' title="冷门亦惊艳｜聆听女声与电音的心动交汇"></a>
+                          <div class='gd_fm_bottom'>
+                              <i></i>
+                              <span>420万</span>
+                              <a href='#'></a>
+                          </div>
+                        </div>
+                        <p class='list_name'>
+                            <a href='#' title="冷门亦惊艳｜聆听女声与电音的心动交汇">冷门亦惊艳｜聆听女声与电音的心动交汇</a>
+                        </p>
+                        <p class='top'>
+                            <span>by</span><a href='#'>星狗</a>
+                        </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan5.jpg'>
+                           <a href='#' title="我的天空没有星星"></a>
+                          <div class='gd_fm_bottom'>
+                              <i></i>
+                              <span>420万</span>
+                              <a href='#'></a>
+                          </div>
+                        </div>
+                        <p class='list_name'>
+                            <a href='#' title="我的天空没有星星">我的天空没有星星</a>
+                        </p>
+                        <p class='top'>
+                            <span>by</span><a href='#'>寄星光予明月</a>
+                        </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan6.jpg'>
+                           <a href='#' title="追逐繁星的孩子，梦里总有无尽星辰"></a>
+                          <div class='gd_fm_bottom'>
+                              <i></i>
+                              <span>420万</span>
+                              <a href='#'></a>
+                          </div>
+                        </div>
+                        <p class='list_name'>
+                            <a href='#' title="追逐繁星的孩子，梦里总有无尽星辰">追逐繁星的孩子，梦里总有无尽星辰</a>
+                        </p>
+                        <p class='top'>
+                            <span>by</span><a href='#'>Instagram精选酱</a>
+                        </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                            <div>
+                               <img src='../img/gedan/gedan7.jpg'>
+                               <a href='#' title="把人生揉碎了写进一首歌"></a>
+                              <div class='gd_fm_bottom'>
+                                  <i></i>
+                                  <span>420万</span>
+                                  <a href='#'></a>
+                              </div>
+                            </div>
+                            <p class='list_name'>
+                                <a href='#' title="把人生揉碎了写进一首歌">把人生揉碎了写进一首歌</a>
+                            </p>
+                            <p class='top'>
+                                <span>by</span>><a href='#'>少年的半岛铁盒</a>
+                            </p>
+                    </li>   
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan8.jpg'>
+                           <a href='#' title="晚安，让所有坏心情在睡前都清零"></a>
+                          <div class='gd_fm_bottom'>
+                              <i></i>
+                              <span>420万</span>
+                              <a href='#'></a>
+                          </div>
+                        </div>
+                        <p class='list_name'>
+                            <a href='#' title="晚安，让所有坏心情在睡前都清零">晚安，让所有坏心情在睡前都清零</a>
+                        </p>
+                        <p class='top'>
+                           <span>by</span><a href='#'>爱听歌的狗大叔</a>
+                        </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan9.jpg'>
+                           <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                          <div class='gd_fm_bottom'>
+                              <i></i>
+                              <span>420万</span>
+                              <a href='#'></a>
+                          </div>
+                        </div>
+                        <p class='list_name'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                        </p>
+                        <p class='top'>
+                            by<a href='#'></a>
+                        </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan10.jpg'>
+                           <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                          <div class='gd_fm_bottom'>
+                              <i></i>
+                              <span>420万</span>
+                              <a href='#'></a>
+                          </div>
+                        </div>
+                        <p class='list_name'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                        </p>
+                        <p class='top'>
+                            <span>by</span><a href='#'>温柔网友随心先生</a>
+                        </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan11.jpg'>
+                           <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                           <div class='gd_fm_bottom'>
+                               <i></i>
+                               <span>420万</span>
+                               <a href='#'></a>
+                           </div>
+                         </div>
+                         <p class='list_name'>
+                             <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                         </p>
+                         <p class='top'>
+                             <span>by</span><a href='#'>温柔网友随心先生</a>
+                         </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                            <div>
+                               <img src='../img/gedan/gedan12.jpg'>
+                               <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                               <div class='gd_fm_bottom'>
+                                   <i></i>
+                                   <span>420万</span>
+                                   <a href='#'></a>
+                               </div>
+                             </div>
+                             <p class='list_name'>
+                                 <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                             </p>
+                             <p class='top'>
+                                 <span>by</span><a href='#'>温柔网友随心先生</a>
+                             </p>
+                    </li>   
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan13.jpg'>
+                           <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                          <div class='gd_fm_bottom'>
+                              <i></i>
+                              <span>420万</span>
+                              <a href='#'></a>
+                          </div>
+                        </div>
+                        <p class='list_name'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                        </p>
+                        <p class='top'>
+                            <span>by</span><a href='#'>温柔网友随心先生</a>
+                        </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan14.jpg'>
+                           <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                           <div class='gd_fm_bottom'>
+                               <i></i>
+                               <span>420万</span>
+                               <a href='#'></a>
+                           </div>
+                         </div>
+                         <p class='list_name'>
+                             <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                         </p>
+                         <p class='top'>
+                             <span>by</span><a href='#'>温柔网友随心先生</a>
+                         </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan15.jpg'>
+                           <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                           <div class='gd_fm_bottom'>
+                               <i></i>
+                               <span>420万</span>
+                               <a href='#'></a>
+                           </div>
+                         </div>
+                         <p class='list_name'>
+                             <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                         </p>
+                         <p class='top'>
+                             <span>by</span><a href='#'>温柔网友随心先生</a>
+                         </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                           <img src='../img/gedan/gedan16.jpg'>
+                           <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                           <div class='gd_fm_bottom'>
+                               <i></i>
+                               <span>420万</span>
+                               <a href='#'></a>
+                           </div>
+                         </div>
+                         <p class='list_name'>
+                             <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                         </p>
+                         <p class='top'>
+                             <span>by</span><a href='#'>温柔网友随心先生</a>
+                         </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                    <div>
+                        <img src='../img/gedan/gedan17.jpg'>
+                        <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                          <div class='gd_fm_bottom'>
+                              <i></i>
+                              <span>420万</span>
+                              <a href='#'></a>
+                          </div>
+                        </div>
+                        <p class='list_name'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                        </p>
+                        <p class='top'>
+                            <span>by</span><a href='#'>温柔网友随心先生</a>
+                        </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan18.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan19.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan20.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan21.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                            <div>
+                                <img src='../img/gedan/gedan22.jpg'>
+                                <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                                <div class='gd_fm_bottom'>
+                                    <i></i>
+                                    <span>420万</span>
+                                    <a href='#'></a>
+                                </div>
+                              </div>
+                              <p class='list_name'>
+                                  <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                              </p>
+                              <p class='top'>
+                                  <span>by</span><a href='#'>温柔网友随心先生</a>
+                              </p>
+                    </li>   
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan23.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan24.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan25.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan26.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                            <div>
+                                <img src='../img/gedan/gedan27.jpg'>
+                                <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                                <div class='gd_fm_bottom'>
+                                    <i></i>
+                                    <span>420万</span>
+                                    <a href='#'></a>
+                                </div>
+                              </div>
+                              <p class='list_name'>
+                                  <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                              </p>
+                              <p class='top'>
+                                  <span>by</span><a href='#'>温柔网友随心先生</a>
+                              </p>
+                    </li>   
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan28.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan29.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>
+                    <li class='gd_fengmian'>
+                        <div>
+                            <img src='../img/gedan/gedan30.jpg'>
+                            <a href='#' title="人一旦有了感情_就窝囊的不行."></a>
+                            <div class='gd_fm_bottom'>
+                                <i></i>
+                                <span>420万</span>
+                                <a href='#'></a>
+                            </div>
+                          </div>
+                          <p class='list_name'>
+                              <a href='#' title="人一旦有了感情_就窝囊的不行.">人一旦有了感情_就窝囊的不行.</a>
+                          </p>
+                          <p class='top'>
+                              <span>by</span><a href='#'>温柔网友随心先生</a>
+                          </p>
+                    </li>                
+               </ul>
+               <div class=''></div>
+           </div> 
+    </section>
+    <footer>
+        <div class='footer_center'>
+            <div class='fc_left'>
+                <ul class='fc_left_ul'>
+                    <li><a href='#'>服务条款</a></li>
+                    <li><a href='#'>隐私政策</a></li>
+                    <li><a href='#'>儿童隐私政策</a></li>
+                    <li><a href='#'>版权投诉指引</a></li>
+                    <li><a href='#'>意见反馈</a></li>
+                </ul>
+                <p>网易公司版权所有&copy;1997-2020
+               杭州乐读科技有限公司运营：<a href='#'>浙网文[2018]3506-263号</a></p>
+                <p>违法和不良信息举报电话：0571-89853516 举报邮箱：<a href='#'>ncm5990@163.com</a></p>
+                <p>粤B2-20090191-18 <a href='#'>工业和信息化部备案管理系统网站</a></p>
+            </div>
+            <div class='fc_right'>
+                <ul>
+                    <li>
+                        <a href='#' class='fc_right_li1'></a>
+                        <span class='fc_right_s1'></span>
+                    </li>
+                    <li>
+                        <a href='#' class='fc_right_li2'></a>
+                        <span class='fc_right_s2'></span>
+                    </li>
+                    <li>
+                        <a href='#' class='fc_right_li3'></a>
+                        <span class='fc_right_s3'></span>
+                    </li>
+                    <li>
+                        <a href='#' class='fc_right_li4'></a>
+                        <span class='fc_right_s4'></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

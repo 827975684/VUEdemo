@@ -1,0 +1,6 @@
+<!--pages/boyfriend/boyfriend.wxml-->
+ <view class="big_box">
+    <view wx:for="{{boys}}" wx:key="id" class='item_text'>
+       <image src="cloud://yiyayiyayo.7969-yiyayiyayo-1302431869/images/yuli_images/boy/{{item.value}}" class="img_block"></image>
+    </view>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/girlfriend/girlfriend.wxml-->
+<view class="big_box">
+    <view wx:for="{{girls}}" wx:key="id" class='item_text'>
+        <text>{{item.value}}</text>
+    </view>
+</view>

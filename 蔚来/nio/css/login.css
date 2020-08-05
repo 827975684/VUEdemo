@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    min-width: 1300px;
+}
+/****************** 主体 ***********/
+section{
+    width:100%;
+    height:800px;
+}
+section::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.bg_img{
+    position: relative;
+    width:100%;
+}
+.bg_img::after{
+    content:'';
+    clear: both;
+    display: block;
+    
+}
+.bg_img>img{
+    width:100%;
+    position: absolute;
+    top:-100px;
+     
+}
+ /* 给es8背景初始为1 */
+.bg_es8{
+    opacity: 1;
+}
+
+
+/* 试驾信息框 和评论框 */
+.test{
+  
+  
+    width:100%;
+    height:720px;
+    box-sizing: border-box;
+    padding:100px 90px  30px ;
+    position: relative;
+
+}
+.form_section{
+    position: absolute;
+    width:450px;
+    height:540px;
+    border:0px solid white;
+}
+
+
+/* 左侧登记表 */
+.form_header{
+    box-sizing: border-box;
+    padding: 30px;
+    width:100%;
+    height:150px;
+    background:rgba(84, 88, 90, 0.3); ;
+}
+.form_header_title{
+    color: #54585a;
+    font-size: 24px;
+    font-weight: 300;
+}
+.form_header_cars{
+    color: #dadcde;
+    font-weight: 100;
+    font-size: 12px;
+    margin:15px 0px 25px;
+}
+.form_header_car>li{
+    list-style: none;
+    float: left;
+    margin:0px 40px 0px 0px;
+    display: block;
+    width:60px;
+    height:20px;
+    cursor: pointer;
+}
+.form_header_car>li>img{
+    width:100%;
+}
+
+/* 表格主体 */
+.test_val{
+    width:100%;
+    height:388px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    background: white;
+    position: relative;
+}
+
+
+.form_item{
+    line-height: 70px;
+    width:390px;
+    height:70px;
+    display: block;
+    border-bottom: 1px solid #f0f1f2;
+    margin: 30px 0px ;
+}
+.form_item>input{
+    margin-left:20px;
+    width:80%;
+    height:40px;
+}
+
+.form_sheng{
+    width:50%;
+    float:left;
+}
+
+
+/* 提交按钮 */
+.btnVal{
+    position: absolute;
+    top:250px;
+    left:110px;
+    width:250px;
+    height:40px;
+    background:#00bebe;
+    text-align: center;
+    line-height:40px;
+    color:white;
+    cursor: pointer;
+     
+}
+/* 消息弹窗 */
+.form_msg{
+    border-radius: 12px;;
+    position: absolute;
+    top:90px;
+    left:60px;
+    width:350px;
+    height:60px;
+    background:rgba(65, 66, 66, 0.8);
+    text-align: center;
+    line-height: 60px;
+    color:white;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

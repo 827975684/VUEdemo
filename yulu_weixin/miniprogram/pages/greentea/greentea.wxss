@@ -1,0 +1,13 @@
+/* pages/greentea/greentea.wxss */
+.big_box{
+  box-sizing: border-box;
+  padding:30rpx 20rpx
+}
+/* 文章内容 */
+.item_text{
+  margin:20rpx 0;
+  padding:40rpx 5%;
+  border-radius:5px;
+  /* border-bottom:2px dotted black ; */
+  background: white;
+}

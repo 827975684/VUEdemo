@@ -1,0 +1,127 @@
+ .big_box{
+   box-sizing: border-box;
+   padding:10rpx 3% 0rpx;
+ }
+ .big_box::after{
+   content: "";
+   clear: both;
+   display: block;
+ }
+
+.toqinghua{
+background-color: white;
+ width:100%;
+ float:left;
+ border:0rpx solid black;
+ height:300rpx;
+ margin:20rpx 0rpx;
+ box-shadow: 6rpx 6rpx 1rpx rgb(166, 166, 166);
+ 
+}
+ 
+ .toboyfriend{
+   border-radius:10rpx;
+   box-sizing: border-box;
+   padding:20rpx 5rpx;
+   width:48%;
+   float:left;
+   border:0px solid black;
+   height:400rpx;
+   margin:10rpx 10rpx 0px  0px;
+   box-shadow: 6rpx 6rpx 1rpx rgb(166, 166, 166);
+   background: white;
+ }
+
+
+ .togirlfriend{
+  border-radius:10rpx;
+  box-sizing: border-box;
+  padding:20rpx 5rpx;
+  width:48%;
+  float:left;
+  border:0rpx solid black;
+  height:400rpx;
+  margin:10rpx 0rpx 0rpx 12rpx;
+  box-shadow: 6rpx 6rpx 1rpx rgb(166, 166, 166);
+  background: white;
+ }
+ .totea{
+  border-radius:10rpx;
+  box-sizing: border-box;
+  padding:20rpx 5rpx;
+  position: relative;
+  width:48%;
+  float:left;
+  border:0rpx solid black;
+  height:420rpx;
+  margin:20rpx  10rpx  0rpx 0rpx;
+  box-shadow: 6rpx 6rpx 1rpx rgb(166, 166, 166);
+  background: white;
+ }
+ .tosea{
+  border-radius:10rpx;
+  box-sizing: border-box;
+  padding:20rpx 5rpx;
+  position: relative;
+  width:48%;
+  float:left;
+  border:0rpx solid black;
+  height:420rpx;
+  margin:20rpx  0rpx  0rpx 10rpx;
+  box-shadow: 6rpx 6rpx 1rpx rgb(166, 166, 166);
+  background: white;
+ }
+
+
+ /* 情话 */
+ .tuwei_text{
+  font-weight: bold;
+  display: block;
+  text-align: center;
+ }
+ /* 哄人必备 */
+.hongren_text{
+  font-weight: bold;
+  display:block;
+  text-align: center;
+  margin:10rpx auto 0px;
+}
+.girl{
+  margin:20rpx auto 0rpx;
+}
+
+
+
+/* 绿茶 */
+.lvcha_img{
+  margin:0rpx auto;
+  width:300rpx;
+  height:320rpx;
+}
+.greentea_text{
+  font-weight: bold;
+  display:block;
+  text-align: center;
+  margin:30rpx auto;
+}
+ 
+/* 渣男 */
+.haiwang{
+  width:100%;
+  height:180px;
+}
+.haiwang_text{
+  font-weight: bold;
+  display:block;
+  text-align: center;
+  margin:-30rpx auto;
+}
+.haiwang_img{
+margin:0rpx auto;
+width:300rpx;
+height:320rpx;
+}
+
+
+
+/*  */

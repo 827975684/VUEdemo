@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="../css/testDrive.css"  rel='stylesheet'>
+    <title>NIO蔚来试驾</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img class='wl_logo' src='../images/header/logo.jpg'>
+            <ul class='nav'>
+                <li id='es8'><a href='es8.html'></a></li>
+                <li id='es6'></li>
+                <li id='ec6'></li>
+                <li>服务</li>
+                <li>NIO Life</li>
+                <li>蔚来</li>
+            </ul>
+            <div class='sj'>
+                 <a href='testDrive.html' class='sja'>预约试驾</a> 
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class='bg_img'>
+            <img src='../images/testDrive/test-drive-banner-es6-desktop.png'  class='bg_es6'>
+            <img src='../images/testDrive/test-drive-banner-es8-desktop-20200401-test.png' class='bg_es8'>
+            <div class='test'>
+                <div class='form_section'>
+                    <div class='form_header'>
+                        <p class='form_header_title'>即刻预约试驾</p>
+                        <p class='form_header_cars'>试驾车型</p>
+                        <ul class='form_header_car'>
+                            <li id='btn_es8'><img src='../images/testDrive/es8-logo-actived.png' class='btn_es8_img'></li>
+                            <li id='btn_es6'><img src='../images/testDrive/es6-logo-regular.png' class='btn_es6_img'></li>
+                        </ul>   
+                    </div>
+                    <div class='test_val'>
+                        <table></table>
+                        <div class='form_item'>
+                            姓名<input type='text' id='user_name'>
+                        </div>
+                        <div class='form_item'>
+                            手机<input type='text' id='user_phone'>
+                        </div>
+                        <div class='form_item'>
+                             <div class='form_sheng'>
+                                 <label>省份</label>
+                                 <div class='select_sheng'> 
+                                    <select id='shengfen' >
+                                        <option>--请选择省份--</option>
+                                    </select>
+                                </div>  
+                             </div>
+                             <div class='form_city'>
+                                 <label>城市</label>
+                                 <div class='select_cheng'>
+                                    <select id='chengshi' >
+                                        <option>--请选择城市--</option>
+                                    </select>
+                                 </div>
+                                
+                            </div>
+                        </div>
+                        <!-- 提示弹窗 -->
+                        <div class='form_msg'>
+                              
+                        </div>
+                        <div class='btnVal'>
+                            <p>提交预约</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='show_pinglun'>
+                    <div class='show_title'>
+                        <div class='es8_title'>
+                            <h1 class='title_h1'>未来旗舰</h1>
+                            <p class='title_p'>终身免费换电,免费质保</p>
+                        </div>
+                        <div class='es6_title'>
+                            <h1 class='title_h1'>智能电动全能SUV</h1>
+                            <p class='title_p'>首付5.15万起</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+
+    </section>
+    <footer>
+        <div>
+            <ul class='footer_ul'>
+                <li><b>&copy;NIO 2020</b></li>
+                <li>上海蔚来汽车有限公司</li>
+                <li>隐私 & 法律</li>
+                <li>网络合作申请</li>
+                <li>购车指南</li>
+            </ul>
+        </div>
+
+        <div></div>
+    </footer>
+ <!-- 引入jq -->
+ <script src="../js/jquery-3.5.1/jquery-3.5.1.js"></script>
+ <script src='../js/testDrive.js'></script>  
+</body>
+</html>

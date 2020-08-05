@@ -1,0 +1,6 @@
+<!--pages/sea/sea.wxml-->
+<view class="big_box">
+    <view wx:for="{{sea}}" wx:key="id" class='item_text'>
+        <text>{{item.value}}</text>
+    </view>
+</view>

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网易云音乐</title>
+    <link href='../css/index.css' rel='stylesheet'>
+    <link rel='shortcut icon' href='../img/favicon.ico'></link>
+</head>
+<body>
+    <header>
+        <div class='h_border'>
+            <div class='nav'>
+                <a href='#'  hidefocus="true"> 
+                    <h1 class='my_logo'>网易云音乐</h1>
+                </a> 	
+                <ul class='ul_styled'>
+                    <li><a href=''>发现音乐</a></li>
+                    <li><a href=''>我的音乐</a></li>
+                    <li><a href=''>朋友</a></li>
+                    <li><a href='https://music.163.com/store/product' target="_blank">商城</a></li>
+                    <li><a href='https://music.163.com/nmusician/web/index#/'  target="_blank">音乐人</a></li>
+                    <li id='nav_ul_lastli'><a href=''>下载客户端</a><div class='list_hot'><img src='../img/header/hot.png'></div>  </li>
+                </ul>
+                <div class='search_1'>
+                    <input type='text' placeholder="音乐/视频/电台/用户" >
+                </div>
+                    <a href='#' class='chuangzuo'>创作者中心</a>
+                <div class='denglu_box'>
+                    <a    class='denglu_btn'>登录</a>
+                    <div id='denglu'>
+                         <div class='d_title'>
+                             <div id='x'>x</div>
+                         </div>
+                         <div class='d_choose'>
+                            <a href='javascript:;' id='choose_d'>登录网易云</a>
+                            <a href='javascript:;' id='choose_z'>注册网易云</a>
+                         </div>
+                         <!-- 弹出效果 -->
+                         <div class='show'>
+                            <div id='d_dl'>
+                                <input type='text' placeholder="请输入手机号码">
+                                <input type='password' placeholder="请输入密码">
+                                <div>
+                                <a href='JavaScript:;' id='d_btn'>登录</a>
+                                 <span id='d_forget'>忘记密码</span>
+                                </div>
+                            </div>
+                            <div id='d_zc'>
+                                <ul class='zc_ul'>
+                                    <li>
+                                        <input type='text' placeholder="请输入手机号" onblur='checkphone()' id='zc_phone'><span id='zc_phone_sp'></span>
+                                    </li>
+                                    <li>
+                                        <input type='password' placeholder="请输入密码" onblur='checkpw()' id='zc_pw'><span id='zc_pw_sp'></span>
+                                    </li>
+                                    <li>
+                                        <input type='password' placeholder="请再输入一次密码" onblur='checkpw2()' id='zc_pw2'><span id='zc_pw2_sp'></span>
+                                    </li>
+                                </ul> 
+                                <div>
+                                    <a href='JavaScript:;'  id='zc_btn' class='z_btn'>注册</a>
+                                </div>
+                            </div>
+                            <div id='show_msg'></div>
+                         </div>
+                    </div>
+                </div>
+                   
+            </div>
+        </div>
+        <div class='h_border2'>
+            <div class='h_2'>
+                <ul class='h_2_buttom'>
+                    <li><a href='../html/index.html'>推荐</a></li>
+                    <li><a href='../html/paihang.html'>排行榜</a></li>
+                    <li><a href='../html/gedan.html'>歌单</a></li>
+                    <li><a href='#'>主播电台</a></li>
+                    <li><a href='#'>歌手</a></li>
+                    <li><a href='#'>新碟上架</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class='lunbo'>
+                <div id='banner'>
+                    <div id='btn-left'></div>
+                    <ul id='banner_ul'>
+                        <li><img src='../img/index/0.jpg'></li>
+                        <li><img src='../img/index/1.jpg'></li>
+                        <li><img src='../img/index/2.jpg'></li>
+                        <li><img src='../img/index/3.jpg'></li>
+                        <li><img src='../img/index/0.jpg'></li>
+                    </ul>
+                    <ul id='button-ul'>
+                            <li class='active'></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                    </ul>
+                    <div id='btn-right'></div>
+                </div>
+                <div class='download'><a href='#'></a><p>PC 安卓 iPhone WP iPad Mac 六大客户端</p></div>
+            </div>        
+        </div>
+        <div class='gedan'>
+            <div class='gedan_left'>
+                <div class='remen'>
+                    <div class='remen_title'>
+                        <a href='#' class='title'>热门推荐</a>
+                        <ul class='remen_ul'>
+                            <li><a href='#'>华语</a></li>
+                            <li><a href='#'>流行</a></li>
+                            <li><a href='#'>摇滚</a></li>
+                            <li><a href='#'>民谣</a></li>
+                            <li><a href='#'>电子</a></li>
+                        </ul>
+                        <a href='#' class='more'>更多</a>
+                    </div>
+                    <div class='remen_gedan'>
+                        <ul>
+                            <li>
+                                <div class='gedan_border'>
+                                <a href='#'>
+                                    <img src='../img/index/gedan.jpg'>    
+                                </a>
+                                <div class='gedan_border_s'>
+                                    <span></span><p>2888万</p> 
+                                    <a href="#"></a>
+                                </div>
+                                </div>
+                                <a href='#'>[VIP专享]一周新歌推荐</a>
+                            </li>
+                            <li>
+                                <div class='gedan_border'>
+                                <a href='#'>
+                                    <img src='../img/index/gedan_left_1.jpg'>    
+                                </a>
+                                <div class='gedan_border_s'>
+                                    <span></span><p>2888万</p> 
+                                    <a href="#"></a>
+                                </div>
+                                </div>
+                                <a href='#'>流浪的人，不许掉眼泪《声声我心》第三期</a>
+                            </li>
+                            <li>
+                                <div class='gedan_border'>
+                                <a href='#'>
+                                    <img src='../img/index/gedan_left_2.jpg'>    
+                                </a>
+                                <div class='gedan_border_s'>
+                                    <span></span><p>14万</p> 
+                                    <a href="#"></a>
+                                </div>
+                                </div>
+                                <a href='#'>空灵女声｜夜莺为谁而歌</a>
+                            </li>
+                            <li>
+                                <div class='gedan_border'>
+                                <a href='#'>
+                                    <img src='../img/index/gedan_left_3.jpg'>    
+                                </a>
+                                <div class='gedan_border_s'>
+                                    <span></span><p>2888万</p> 
+                                    <a href="#"></a>
+                                </div>
+                                </div>
+                                <a href='#'>心累了，偷偷丧一会吧</a>
+                            </li>
+                            <li>
+                                <div class='gedan_border'>
+                                <a href='#'>
+                                    <img src='../img/index/gedan_left_4.jpg'>    
+                                </a>
+                                <div class='gedan_border_s'>
+                                    <span></span><p>12245</p> 
+                                    <a href="#"></a>
+                                </div>
+                                </div>
+                                <a href='#'>【治愈】鲸鱼与星星</a>
+                            </li>
+                            <li>
+                                <div class='gedan_border'>
+                                <a href='#'>
+                                    <img src='../img/index/gedan_left_5.jpg'>    
+                                </a>
+                                <div class='gedan_border_s'>
+                                    <span></span><p>52万</p> 
+                                    <a href="#"></a>
+                                </div>
+                                </div>
+                                <a href='#'>夏天的风（cover：温岚）</a>
+                            </li>
+                            <li>
+                                <div class='gedan_border'>
+                                <a href='#'>
+                                    <img src='../img/index/gedan_left_6.jpg'>    
+                                </a>
+                                <div class='gedan_border_s'>
+                                    <span></span><p>2888万</p> 
+                                    <a href="#"></a>
+                                </div>
+                                </div>
+                                <a href='#'>[VIP专享]一周新歌推荐</a>
+                            </li>
+                            <li>
+                                <div class='gedan_border'>
+                                <a href='#'>
+                                    <img src='../img/index/gedan_left_7.jpg'>    
+                                </a>
+                                <div class='gedan_border_s'>
+                                    <span></span><p>2888万</p> 
+                                    <a href="#"></a>
+                                </div>
+                                </div>
+                                <a href='#'>[VIP专享]一周新歌推荐</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                 
+                <div class='bangdan'>
+                    <div class='bangdan_title'>
+                        <a href='#' class='title'>榜单</a>
+                        <a href='#' class='more'>更多</a>
+                   </div>
+                   <div class='bangdan_section'>
+                        <div class='d1'>
+                            <div class='d_top'>
+                                <a href='#'><img src='../img/index/d1_1.jpg'></a>
+                                <div class='d_top_info'>
+                                        <a href='#'>云音乐飙升榜</a>
+                                        <p>
+                                            <a href='#' class='d1_top_info_p1'></a>
+                                            <a href='#' class='d1_top_info_p2'></a>
+                                        </p>
+                                </div>    
+                            </div>
+                            <div class='tb_gedan'>
+                                <ul>
+                                    <li><span class='tb_123'>1</span><a href='#'>请先说你好</a></li>
+                                    <li><span class='tb_123'>2</span><a href='#'>可乐</a></li>
+                                    <li><span class='tb_123'>3</span><a href='#'>感谢你曾来过</a></li>
+                                    <li><span>4</span><a href='#'>不在</a></li>
+                                    <li><span>5</span><a href='#'>这一生关于你的风景</a></li>
+                                    <li><span>6</span><a href='#'>星空</a></li>
+                                    <li><span>7</span><a href='#'>四块五</a></li>
+                                    <li><span>8</span><a href='#'>不找了</a></li>
+                                    <li><span>9</span><a href='#'>关于孤独我想说的话</a></li>
+                                    <li><span>10</span><a href='#'>纸短情长</a></li>
+                                    <li><a href='#'>查看全部></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class='d2'>
+                            <div class='d_top'>
+                                <a href='#'><img src='../img/index/d1_2.jpg'></a>
+                                <div class='d_top_info'>
+                                        <a href='#'>云音乐新歌榜</a>
+                                        <p>
+                                            <a href='#' class='d_top_info_p1'></a>
+                                            <a href='#' class='d_top_info_p2'></a>
+                                        </p>
+                                </div> 
+                                
+                            </div>
+                            <div class='tb_gedan'>
+                                <ul>
+                                    <li><span class='tb_123'>1</span><a href='#'>请先说你好</a></li>
+                                    <li><span class='tb_123'>2</span><a href='#'>可乐</a></li>
+                                    <li><span class='tb_123'>3</span><a href='#'>感谢你曾来过</a></li>
+                                    <li><span>4</span><a href='#'>不在</a></li>
+                                    <li><span>5</span><a href='#'>这一生关于你的风景</a></li>
+                                    <li><span>6</span><a href='#'>星空</a></li>
+                                    <li><span>7</span><a href='#'>四块五</a></li>
+                                    <li><span>8</span><a href='#'>不找了</a></li>
+                                    <li><span>9</span><a href='#'>关于孤独我想说的话</a></li>
+                                    <li><span>10</span><a href='#'>纸短情长</a></li>
+                                    <li><a href='#'>查看全部></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class='d3'>
+                            <div class='d_top'>
+                                <a href='#'><img src='../img/index/d1_3.jpg'></a>
+                                <div class='d_top_info'>
+                                        <a href='#'>网易原创歌曲榜</a>
+                                        <p>
+                                            <a href='#' class='d_top_info_p1'></a>
+                                            <a href='#' class='d_top_info_p2'></a>
+                                        </p>
+                                </div> 
+                            </div>
+                            <div class='tb_gedan'>
+                                <ul>
+                                    <li><span class='tb_123'>1</span><a href='#'>请先说你好</a></li>
+                                    <li><span class='tb_123'>2</span><a href='#'>可乐</a></li>
+                                    <li><span class='tb_123'>3</span><a href='#'>感谢你曾来过</a></li>
+                                    <li><span>4</span><a href='#'>不在</a></li>
+                                    <li><span>5</span><a href='#'>这一生关于你的风景</a></li>
+                                    <li><span>6</span><a href='#'>星空</a></li>
+                                    <li><span>7</span><a href='#'>四块五</a></li>
+                                    <li><span>8</span><a href='#'>不找了</a></li>
+                                    <li><span>9</span><a href='#'>关于孤独我想说的话</a></li>
+                                    <li><span>10</span><a href='#'>纸短情长</a></li>
+                                    <li><a href='#'>查看全部></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                   </div> 
+                </div>
+            </div>
+            <div class='gedan_right'>
+                <div class='gedan_right_1'>
+                    <p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+                    <a href='javascript:;' id='denglu_btn2'>用户登录</a>
+                </div>
+                <div class='gedan_right_2'>
+                    <div class='gedan_right_title'>
+                        <span>入驻歌手</span>
+                        <a href='#'>查看全部></a>
+                    </div>
+                    <div class='gedan_right_geshou'>
+                        <ul>
+                            <li><a href='javascript:;'>
+                                    <img src='../img/index/gedan_right_geshou1.jpg'>
+                                   <div class='ul_geshou'>
+                                       <p>张惠妹aMEI</p>
+                                       <p>台湾歌手张惠妹</p>
+                                   </div>
+                                </a>
+                            </li>
+                            <li><a href='javascript:;'>
+                                    <img src='../img/index/gedan_right_geshou2.jpg'>
+                                    <div class='ul_geshou'>
+                                        <p>Fine乐团</p>
+                                        <p>独立音乐创作人</p>
+                                    </div>
+                                </a>
+                             </li>
+                            <li><a href='javascript:;'>
+                                    <img src='../img/index/gedan_right_geshou3.jpg'>
+                                    <div class='ul_geshou'>
+                                        <p>万晓利</p>
+                                        <p>民谣歌手</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a href='javascript:;'>
+                                    <img src='../img/index/gedan_right_geshou4.jpg'>
+                                    <div class='ul_geshou'>
+                                        <p>音乐人赵雷</p>
+                                        <p>民谣歌手</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a href='javascript:;'>
+                                    <img src='../img/index/gedan_right_geshou5.jpg'>
+                                    <div class='ul_geshou'>
+                                        <p>王三薄</p>
+                                        <p>音乐人</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    <a href='javascript:;'>申请成为网易音乐人</a>   
+                    </div>
+                    <div class='gedan_right_title'>
+                        <span>热门主播</span>
+                        <ul class='gedan_right_zhubo'>
+                            <li><a href='javascript:;'><img src='../img/index/gedan_right_zhubo1.jpg'></a>
+                                <div>
+                                    <p><a href='javascript:;'>陈立</a></p>
+                                    <p>心理学家，美食家陈立教授</p>
+                                </div>
+                            </li>
+                            <li><a href='javascript:;'><img src='../img/index/gedan_right_zhubo2.jpg'></a>
+                                <div>
+                                    <p><a href='javascript:;'>DJ艳秋</a></p>
+                                    <p>著名音乐节目主持人</p>
+                                </div>
+                            </li>
+                            <li><a href='javascript:;'><img src='../img/index/gedan_right_zhubo3.jpg'></a>
+                                <div>
+                                    <p><a href='javascript:;'>国家大剧院古典音乐频道</a></p>
+                                    <p>国家大剧院古典音乐官方</p>
+                                </div>
+                            </li>
+                            <li><a href='javascript:;'><img src='../img/index/gedan_right_zhubo4.jpg'></a>
+                                <div>
+                                    <p><a href='javascript:;'>谢谢收听</a></p>
+                                    <p>南京电台主持人王馨</p>
+                                </div>
+                            </li>
+                            <li><a href='javascript:;'><img src='../img/index/gedan_right_zhubo5.jpg'></a>
+                                <div>
+                                    <p><a href='javascript:;'>DJ晓苏</a></p>
+                                    <p>独立DJ，CRI环球旅游广播</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='footer_center'>
+            <div class='fc_left'>
+                <ul class='fc_left_ul'>
+                    <li><a href='#'>服务条款</a></li>
+                    <li><a href='#'>隐私政策</a></li>
+                    <li><a href='#'>儿童隐私政策</a></li>
+                    <li><a href='#'>版权投诉指引</a></li>
+                    <li><a href='#'>意见反馈</a></li>
+                </ul>
+                <p>网易公司版权所有&copy;1997-2020
+               杭州乐读科技有限公司运营：<a href='#'>浙网文[2018]3506-263号</a></p>
+                <p>违法和不良信息举报电话：0571-89853516 举报邮箱：<a href='#'>ncm5990@163.com</a></p>
+                <p>粤B2-20090191-18 <a href='#'>工业和信息化部备案管理系统网站</a></p>
+            </div>
+            <div class='fc_right'>
+                <ul>
+                    <li>
+                        <a href='#' class='fc_right_li1'></a>
+                        <span class='fc_right_s1'></span>
+                    </li>
+                    <li>
+                        <a href='#' class='fc_right_li2'></a>
+                        <span class='fc_right_s2'></span>
+                    </li>
+                    <li>
+                        <a href='#' class='fc_right_li3'></a>
+                        <span class='fc_right_s3'></span>
+                    </li>
+                    <li>
+                        <a href='#' class='fc_right_li4'></a>
+                        <span class='fc_right_s4'></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+<!-- 引入 -->
+<script src='../js/jquery-1.11.3.js'></script>
+<!-- 轮播图 -->
+    <script>
+        var i=0;//现在显示的第几张照片
+        var liwidth=730;//每一个li的长度
+        var duration=500;//每次轮播动画持续时间
+        var licount=4;//li的总个数
+        var ulimgs=document.getElementById('banner_ul');//要移动的ul
+        var ulidxs=document.getElementById('button-ul');//获取小圆点
+        var lis=ulidxs.children;//从当前位置移动到 任意一个范围内的位置
+
+        function moveTo(to){
+      if(to==undefined){
+        to=i+1;
+      }
+      if(i==0){
+        if(to>i){//如果要看当前位置右边的图片，是不会出问题的
+          ulimgs.className="transition";
+        }else{//只有i=0在开头，且还要看左边的图片时，才会出问题
+          //为了避免用户再次看到偷梁换柱的效果，先把transition class去掉
+          ulimgs.className="";
+          //将ulImgs拉取到最左侧
+          ulimgs.style.marginLeft=-liwidth*licount+"px";
+          //定时器是为了将偷梁换柱操作和加回transition属性的操作强行隔离开
+          setTimeout(function(){
+            moveTo(LICOUNT-1);
+          },100);
+          return;
+        }
+      }
+      i=to;
+      ulimgs.style.marginLeft=-i*liwidth+"px";
+      for(var li of lis){
+        li.className=""
+      }
+      
+      if(i==licount){
+        i=0;
+        setTimeout(function(){
+          ulimgs.className="";
+          ulimgs.style.marginLeft=0;
+        },duration)
+      }
+      lis[i].className="active";
+    }
+
+    </script> 
+    <script>
+    var btnLeft=document.getElementById("btn-left");
+    var btnRight=document.getElementById("btn-right");
+    //用开关，控制，上次动画没有播放完，下次动画不能开始！
+    var canClick=true;
+    btnRight.onclick=function(){
+      //调用两个按钮公共的移动方法，参数1表示移动到i+1的位置，相当于左移一个
+      move(1)
+    }
+    //两个按钮共用的移动函数，n传入1时，移动到i+1位置，左移。n传入-1时，移动到i-1位置，右移
+    function move(n){
+      if(canClick){//只有可以单击时
+        moveTo(i+n);//才调用真正移动ul的方法
+        canClick=false;//马上把开关关上，禁止再次点击
+        //只有本地transition动画播放完，才能自动打开开关，点击按钮才有反应。
+        setTimeout(function(){
+          canClick=true;
+        },duration+100);
+      }
+    }
+    btnLeft.onclick=function(){
+      move(-1);
+    }
+  
+    </script>
+    <script>      
+    var interval=3000;
+    var timer=setInterval(function(){
+      moveTo()
+    },3000);
+    var banner=document.getElementById("banner");
+    banner.onmouseover=function(){
+      clearInterval(timer);
+    }
+    banner.onmouseout=function(){
+      timer=setInterval(function(){
+        moveTo()
+      },3000);
+    }
+  
+    </script>
+    <script>   
+    var ulidxs=document.getElementById("button-ul");
+    var canClick=true;
+    ulidxs.onclick=function(e){
+      if(canClick){
+        var li=e.target;
+        if(li.nodeName=="LI"){
+          if(li.className!=="active"){
+            for(var i=0;i<lis.length;i++){
+              if(lis[i]==li){
+                break;
+              }
+            }
+            moveTo(i);
+            setTimeout(function(){
+              canClick=true;
+            },duration);
+          }
+        }
+      }
+    }
+  
+    </script>
+    <!-- 弹出 -->
+    <script> 
+        var denglu_btn=document.getElementsByClassName('denglu_btn');
+        var denglu=document.getElementById('denglu')
+        var dl=document.getElementById('choose_d');//获取登录界面按钮
+        var zc=document.getElementById('choose_z');//获取注册界面按钮
+        var d_dl=document.getElementById('d_dl');
+        var d_zc=document.getElementById('d_zc');
+        var zinde=1;//计数器
+       
+        denglu_btn[0].onclick=function(){
+                denglu.style.display='block';
+                d_dl.style.zIndex=zinde;//登录界面出来的时候就给z-index
+
+        }
+        // X关闭弹框
+        var x=document.getElementById('x');
+        
+        x.onclick=function(){
+            denglu.style.display='none'
+        }
+        var denglu_btn2=document.getElementById('denglu_btn2');  
+        denglu_btn2.onclick=function(){
+            denglu.style.display='block'         
+        } 
+//  登录界面
+        dl.onclick=function(){
+            zinde++;
+             d_dl.style.zIndex=zinde;
+             
+        } 
+        zc.onclick=function(){            
+            zinde++
+             d_zc.style.zIndex=zinde;
+              
+        }
+    </script>
+    <!--  注册框 验证 -->
+   <script>
+        //验证手机号
+        function checkphone(){
+            var str=document.getElementById('zc_phone').value;
+            var reg=/^1[3456789]\d{9}$/;
+            var mes=document.getElementById('zc_phone_sp');
+            if(reg.test(str)){
+                mes.innerHTML='手机号码格式正确';
+                mes.className='msg_green';
+                return true
+            }else{
+                mes.innerHTML='手机号码格式错误';
+                mes.className='msg_red';
+                return false 
+            }     
+        }
+        //验证密码
+        function checkpw(){
+            var str=document.getElementById('zc_pw').value; 
+            var reg=/^[a-zA-Z0-9]{6,12}$/ 
+            var mes=document.getElementById('zc_pw_sp');
+            if(reg.test(str)){
+                mes.innerHTML='密码格式正确';
+                mes.className='msg_green';
+                return true
+            }else{
+                mes.innerHTML='6-12位数字或字母';
+                mes.className='msg_red';
+                return false 
+            }  
+            checkpw2();  
+        }
+        function checkpw2(){
+            var str=document.getElementById('zc_pw').value;// 密码框得到的数字
+            var str2=document.getElementById('zc_pw2').value;//验证框的得到的数字
+            var mes=document.getElementById('zc_pw2_sp');
+            if(str2==str){
+                mes.innerHTML='密码正确';
+                mes.className='msg_green';
+                return true
+            }else{
+                mes.innerHTML='密码不正确';
+                mes.className='msg_red';
+                return false   
+            }
+        }
+
+    //注册按钮
+    var $btn=$('#zc_btn');
+    $btn.click(()=>{
+         if(checkphone()&checkpw()&checkpw2()){
+            //如果验证都通过 就获取账号密码
+            var $phone=$('#zc_phone').val();//手机号
+            var $pw=$('#zc_pw').val();//密码 
+            // 获取信息提示框
+            var $showMsg=$('#show_msg');
+
+            $.ajax({
+                 url:'http://localhost:8888/getUser',
+                 type:'post',
+                 data:{user_phone:$phone ,user_pw:$pw },
+                 dataType:'json',
+                 success:function(result){
+                     //如果成功 显示注册成功  并且三秒关闭 并且更换登录内容，变成登录的手机号 
+                     if(result.code == 200){
+                        $showMsg.css('display','block');
+                        $showMsg.html('注册成功');
+                        var alertMsg=setTimeout(()=>{
+                            $showMsg.css('display','none');
+                        },2000);
+                        clearTimeout(alertMsg);
+                     }
+                     //失败显示注册失败
+                      
+                    //  if(result.msg=='注册成功'){
+                    //     $showMsg.css('display','block');
+                    //     $showMsg.html('注册成功')
+                    //  }
+                 }
+             })
+            
+         }
+
+          
+    })
+
+
+    </script>
+</body>
+</html>

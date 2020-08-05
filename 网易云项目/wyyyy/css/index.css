@@ -1,0 +1,426 @@
+/* 头部导航栏css */
+*{margin:0;padding:0;list-style-type:none;}
+body{font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;}
+.h_border{width:100%;background-color: #242424;box-sizing: border-box;}
+.h_border::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.nav{width:1100px;height:70px;line-height:70px;margin:0px auto;}
+.my_logo{float: left;width:160px;background: url(..//img/header/topbar.png)
+        ;background-position: 0px 0px;   ;text-indent:-9999px;}
+/*text-indent隐藏字体*/		
+.ul_styled{list-style-type: none;float: left;margin-left:20px;}
+.ul_styled>li{float:left;padding:0px 20px ;}
+.ul_styled>li>a{text-decoration: none;color:#cccccc;font-size:14px;display:block}
+#nav_ul_lastli{position: relative;}
+.list_hot{width:25px;height:10px;position: absolute;top:-10px;left:90px;}
+.list_hot>img{width:100%;height:100%;}
+.ul_styled>li:hover{background-color: #000000;cursor: pointer;}
+.ul_styled>li:hover .ul_styled>li>a{color: #FFFFFF; }
+/* 搜索框 */
+.search_1{width:160px;float:left;background-color: #FFFFFF;margin:20px 0px 0px 70px ;height:32px;position: relative;overflow: hidden;border-radius:20px;}
+.search_1::before{content: url(../img/header/search1.png);   display:block;position: absolute;
+    top:-13px; left:4px;margin-top:2px}
+.search_1>input{width:115px;height:16px; position: absolute;top:9px;left:30px;border:none;outline:medium;font-size:12px;}
+/* 创作者中心 */
+.chuangzuo{display: block;width:90px;height:30px;float: left;border:1px solid #4f4f4f;    color: #ccc;margin:20px 0px 0px 10px;line-height: 32px;text-align: center;text-decoration: none;border-radius: 40px;}
+/* 下部分导航栏 */
+.h_border2{width:100%;height:35px;background-color:rgb(194,12,12);}
+.h_2{width:1100px;margin:0px auto;height:35px;}
+.h_2_buttom{margin-left:210px;width:743px;height:35px;}
+.h_2_buttom>li{float: left; margin-right:40px}
+.h_2_buttom>li>a{text-decoration: none;color:#FFFFFF;display: block;height:15px;line-height: 15px;text-align: center;margin: 7px 0px;padding:3px 10px;border-radius:20px;}
+.h_2_buttom>li>a:hover{background-color:rgb(164, 0, 17);}
+
+/* 登录界面 */
+.denglu_box{
+    position: relative;
+    
+}
+.denglu_btn{
+    line-height:73px ;
+    margin-left:10px;
+    text-decoration: none;
+    font-size: 14px;
+    color:#cccccc;
+    cursor: pointer;
+}
+#denglu{
+    display:none;
+    position: absolute;
+    background: #ffffff;
+    top:300px;
+    left:200px;
+    z-index: 10;
+    width:540px;
+    height:400px;
+    box-shadow: 0px 2px 5px 3px rgb(85, 85, 85) ;
+    
+}
+.d_title{width:100%;height:40px;background-color:#000000 ;}
+.d_title::before{
+    content:'';
+    display: table;
+}
+#x{width:20px;line-height: 20px;text-align:center;color: #FFFFFF;cursor: pointer;
+font-size: 20px;margin:10px 20px 0px  500px;}
+.d_choose{
+    width:100%;
+}
+.d_choose::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.d_choose>a{
+    font-weight:550;
+    color:#000;
+    line-height: 60px;
+    font-size:19px;
+    float: left;
+    display: block;
+    width:50%;
+    height:60px;
+    text-decoration: none;
+    text-align: center;
+}
+.d_choose>a:hover{
+    background-color:#f5f5f5;
+}
+
+/* 登录主体 */
+.show{ width:540px;height:300px;position: relative;}
+/* 登录 */
+#d_dl{
+    width:540px;
+    height:300px;
+    position: absolute;
+    box-sizing: border-box;
+    padding:10px 20px;
+    
+    background: #ffffff;
+}
+#d_dl>input{
+    display: block;
+    margin:30px auto;
+    width:300px;
+    height:40px;
+    box-sizing: border-box;
+    padding:0px 20px;
+    font-size: 18px;
+}
+#d_btn{
+display: block;
+width:100px;
+height:30px;
+text-align: center;
+line-height:30px;
+margin:-10px auto;
+font-size: 15px;
+color:white;
+text-decoration: none;
+background: url(../img/index/index.png);
+background-position:0px -195px;
+}
+ 
+#d_forget{  
+  height:20px;
+  margin: 10px  0px 0px 220px ;
+  cursor: pointer;   
+}
+ /* 注册 */
+#d_zc{
+    width:540px;
+    height:300px;
+    position: absolute;
+    box-sizing: border-box;
+    padding:10px 20px;
+    background: #ffffff;
+ }
+.zc_ul>li{
+height:50px;
+line-height:50px;
+margin-bottom:20px;
+}
+.zc_ul>li input{
+  margin:0px 0px 0px 100px; 
+  box-sizing: border-box;
+  padding:0px 0px 0px 20px;
+  height:40px;
+  width:250px;
+  font-size:15px;
+}
+.z_btn{
+        display: block;
+        width:100px;
+        height:30px;
+        text-align: center;
+        line-height:30px;
+        margin:0px 0px 0px 170px ;
+        font-size: 15px;
+        color:white;
+        text-decoration: none;
+        background: url(../img/index/index.png);
+        background-position:0px -195px;
+         
+}
+.msg_red{
+    color:red
+ }
+.msg_green{
+    color:green
+}
+/* 登录或注册信息提示框 */
+
+#show_msg{
+    position: absolute;
+    display:none;
+    width:300px;
+    height:100px;
+    z-index:200;
+    top:50px;
+    left:100px;
+    background: white;
+    box-shadow: 0px 2px 5px 3px rgb(85, 85, 85)
+}
+
+
+
+
+/*************************** 主体 *************************//*************************** 主体 *************************/
+/*************************** 主体 *************************//*************************** 主体 *************************/
+/* 轮播图 */
+.lunbo{width:980px;height:285px;margin:0px auto}
+.lunbo1::after{content: "";display:block;clear: both;}
+.download{width:250px;height:285px;float:left;background:url(../img/index/download.png);}
+.download>a{display: block;width:214px;height:57px;margin:185px auto 0px;background:url(../img/index/download.png);background-position: -20px -185px;}
+.download>a:hover{background-position: 0px 64px;}
+.download>p{margin-top:10px;font-size:12px ;color: rgb(141, 141, 141);text-align: center;}
+#banner{
+    float: left;
+    position: relative;
+    width:730px;
+    height:285px;
+    box-sizing: border-box;
+    padding:0px 1px;
+    overflow: hidden;
+}
+#banner_ul{
+    width:4000px;
+    height:285px;
+}
+#banner_ul>li{
+    width:730px;
+    height:285px;
+    display: block;
+    float: left;
+}
+#banner_ul>li>img{
+    width:730px;
+    height:285px;
+}
+#btn-left{
+    position: absolute;
+    top:0px;
+    width:50px;
+    height:285px;
+    background: url(../img/index/left_ar.png)no-repeat;
+    background-size: 20px;
+    background-position: center;
+    cursor: pointer;
+}
+#btn-right{
+    position: absolute;
+    top:0px;
+    left:680px;
+    width:50px;
+    height:285px;
+    background: url(../img/index/right_ar.png)no-repeat;
+    background-size: 20px;
+    background-position: center;
+    cursor: pointer;
+}
+ 
+#button-ul{
+    position: absolute;
+    top:260px;
+    left:300px
+}
+#button-ul>li{
+    display:block;
+    float: left;
+    width:10px;
+    height:10px;
+    background: white;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* 主页歌单部分 */
+.gedan{background:white;width:981px;height:1112px;margin:0px auto;border:1px solid #d3d3d3;}
+/* 左侧歌单 */
+.gedan_left{float:left;width:729px;padding:20px 20px 40px;box-sizing: border-box;border-right:1px solid #d3d3d3;}
+/******************************热门******************************/
+.remen{width:689px;height:523px;}
+.remen_title{border-bottom: 2px solid #C10D0C;}
+.remen_title::after{content:'';display: block;clear: both;}
+/* 标题 */
+.title{display: block;float: left;text-decoration: none; font-size:20px ;line-height:35px;color: #333;}
+.title::before{content:'';display:block;float: left    ;width:35px;height:35px;background: url(../img/index/index.png);background-position:190px -152px ;}
+/* 分类 */
+.remen_ul{display:block;margin-left:30px;width:300px;height:35px;float: left;}
+.remen_ul>li{float:left;line-height: 35px;margin:0px 0px}
+.remen_ul>li>a{text-decoration: none;color:#666666;font-size: 12px;}
+.remen_ul>li::after{content:'|';color:#cccccc;margin:0px 15px}
+/* 更多 */
+.more{line-height: 35px;float:right;text-decoration: none;color: #666666;}
+.more::before{content:'';display: block;width:15px;height:35px;float: right;background: url(../img/index/index.png);background-position:0 -229px;margin-right: 10px;}
+
+/*热门歌单*/
+.remen_gedan{margin:20px 0px 0px 0px;height:470px}
+.remen_gedan>ul>li{display: block;float:left;width:140px;height:233px;margin:0px 43px 0px 0px}
+.remen_gedan>ul>li>a{ text-decoration: none; font-size:14px;  color: #666666;}
+.remen_gedan>ul>li>a:hover{text-decoration: underline;}
+.gedan_border{position: relative;width:100%;}
+.gedan_border_s{z-index:2 ;position: absolute;width:100%;height:27px;top:113px;background-color:rgba(59, 59, 59,0.7);line-height: 27px;color:#ccc;}
+.gedan_border_s>span{float:left;width:14px;height:11px;background: url(../img/index/iconall.png)no-repeat;background-position:0px -24px ;margin:9px;}
+.gedan_border_s>p{float: left;}
+.gedan_border_s>a{margin:5px 0px 0px 45px ;display: inline-block;width:20px;height:20px;background: url(../img/index/iconall.png);background-position:0px 0px ;}
+.gedan_border_s>a:hover{background-position: 0px -60px;}
+/* 歌单最后两个取消外边距*/
+.remen_gedan>ul>li:nth-child(4),.remen_gedan>ul>li:nth-child(8){margin:0px}
+
+
+
+/***************************新碟上架**********************/
+.xinge{margin-top: 20px;}
+.xinge_title{height:37px;border-bottom:2px solid #C10D0C;}
+.xinge_section{position: relative;border: 1px solid #d3d3d3;margin: 20px 0 37px;    height: 186px;}
+
+
+
+/* 榜单 */
+.bangdan_title{height:37px;border-bottom:2px solid #C10D0C;margin-bottom: 20px;}
+.bangdan_section{width:689px;height:472px;background: url(../img/index/index_bill.png);}
+/********************三条歌单总体样式 ******************/
+.d1{float: left;width:229.5px;border: 0px solid black;height:471px;}
+.d2{float: left;width:229.5px;border: 0px solid black;height:471px;}
+.d3{float: left;width:229.5px;border: 0px solid black;height:471px;}
+/********************三条歌单总体样式 ******************/
+.d_top{width:228px;height:120px;box-sizing: border-box;padding:20px 0px 0px 20px}
+.d_top>a{display:block;float:left;}
+.d_top>a>img{width:80px;height:80px}
+.d_top_info{float:left;margin:10px}
+.d_top_info>p{display:block;margin-top: 10px;}
+.d_top_info_p1{display: block;margin-right:10px;background: url(../img/index/index.png);background-position: -267px -205px;width:22px;height:22px;overflow: hidden;float: left;}
+.d_top_info_p2{display: block;background: url(../img/index/index.png);background-position:-300px -205px ;width:22px;height:22px;overflow: hidden;float: left;}
+.d_top_info>a{font-size:14px;color:#333;text-decoration: none;font-weight: bold;}
+/* 排行 */
+.tb_gedan{width:230px;height:350px;}
+.tb_gedan>ul>li{display:block;width:230px;height:32px;line-height:32px;}
+/* 字样式 */
+.tb_123{color: #c10d0c;}
+.tb_gedan>ul>li>span{display:inline-block;margin:0px 15px 0px 25px;font-size:16px}
+.tb_gedan>ul>li>a{text-decoration: none;color:#000;}
+/* 第十个 */.tb_gedan>ul>li:nth-child(10)>span{margin:0px 10px 0px 20px}
+/* 查看全部 */
+.tb_gedan>ul>li:last-child>a{margin-left:150px;}
+/* 鼠标悬停的效果 */
+/* 字加下划线 */
+.tb_gedan>ul>li>a:hover{text-decoration: underline;}
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 右侧歌单 */
+.gedan_right{float: left;height:920px;width:249px; }
+/*  右侧歌单用户登录 */
+.gedan_right_1{margin:0px 0px 0px 1.5px;width:250px;height:125px;background: url(../img/index/index.png);}
+.gedan_right_1>p{padding:16px 0px;line-height:20px;width:205px;margin:0px auto;font-size:12px;color:#666;}
+.gedan_right_1>a{display:block;width:100px;height:31px;margin:0px auto;text-align: center;line-height: 31px;background: url(../img/index/index.png);background-position:0px -195px;text-decoration: none;color:#fff}
+.gedan_right_1>a:hover{background-position:-110px -195px;}
+/* 入驻歌手 */
+.gedan_right_title{width:210px;height:24px;margin:15px auto 0px;line-height: 24px;border-bottom: 1px solid #ccc;;}
+.gedan_right_title>span{color:#333;font-size: 100%;font-weight: bold;}
+.gedan_right_title>a{margin:0px 0px 0px 100px;text-decoration: none;color: #666666;}
+.gedan_right_title>a:hover{text-decoration:#6666;}
+.gedan_right_geshou>ul{width:210px;margin: 15px auto 10px;}
+.gedan_right_geshou>ul>li{margin:0px auto 15px ;display: block;width:210px;height:62px;background-color:#fafafa ;}
+.gedan_right_geshou>ul>li:hover{background-color:rgba(197, 197, 197, 0.4) ;}
+.gedan_right_geshou>ul>li>a{display: block;width:100%;height:61px;}
+.gedan_right_geshou>ul>li>a>img{display:block;float:left;margin-right:15px}
+.ul_geshou{float: left;}
+.ul_geshou>p:first-child{font-size:14px ;color:#333;font-weight: bold;margin:10px 0px;}
+.ul_geshou>p:nth-child(2){font-size: 12px;color:#555}
+/* 申请成为音乐人按钮 */
+.gedan_right_geshou>a{text-decoration: none;text-align: center;font-size:12px;color:#666;line-height:31px; font-weight:bold;display:block;width:210px;height:31px;margin:20px auto 30px;background: url(../img/index/button2.png);background-position:-2px -58px;}
+/* 主播 */
+.gedan_right_zhubo>li{display:block;margin-top:15px;width:210px;height:40px}
+.gedan_right_zhubo>li>a{display: block;width:40px;height:40px;float: left;}
+.gedan_right_zhubo>li>div{width:160px ;height:41px;float:left;margin-left:10px}
+.gedan_right_zhubo>li>div>p>a{text-decoration: none;color:rgb(12, 12, 12)}
+.gedan_right_zhubo>li>div>p>a::after{content:'';display:inline-block;width:11px;height:13px;background: url(../img/index/icon.png);}
+.gedan_right_zhubo>li>div>p:nth-child(2){color: rgb(122, 122, 122);}
+
+
+
+
+
+/* footer */
+footer{width:100%;height:170px;border-top: 1px solid #d3d3d3;}
+.footer_center{width:982px;margin: 0px auto;}
+/* 左侧 */
+.fc_left{width:520px;padding:20px 0px 0px 0px;float: left;}
+.fc_left_ul{width:520px;height:24px;}
+.fc_left_ul>li{float:left;margin-right: 10px;}
+.fc_left_ul>li::after{content: '|';margin-left: 10px;color:#999}
+.fc_left>p{margin:10px 0px }
+/* 改颜色 */
+.fc_left a{color:  #999;text-decoration: none;}
+.fc_left a:hover{text-decoration: underline;}
+/* 右侧 */
+.fc_right{float:left;width:320px;margin:30px 0px 0px 140px }
+.fc_right>ul>li{float:left;margin-right:25px;}
+
+.fc_right>ul>li>a{display:block;width:47px;height:45px;background-size: 110px 450px;}
+.fc_right_li1{background: url(../img/index/foot_enter_new.png);background-position: -63px -101px;}
+.fc_right_li2{background: url(../img/index/foot_enter_new.png);background-position: 0 0;}
+.fc_right_li3{background: url(../img/index/foot_enter_new.png);background-position: -63px -50px;}
+.fc_right_li4{background: url(../img/index/foot_enter_new.png);background-position: 0 -101px;}
+
+.fc_right>ul>li>span{display:block;width:55px;height:15px; background-size: 180px 100px;}
+.fc_right_s1{background: url(../img/index/foot_enter_tt.png) no-repeat;background-position: -1px -91px;}
+.fc_right_s2{background: url(../img/index/foot_enter_tt.png) no-repeat;background-position: 0 0 ;}
+.fc_right_s3{background: url(../img/index/foot_enter_tt.png) no-repeat;background-position: 0 -54px ;}
+.fc_right_s4{background: url(../img/index/foot_enter_tt.png) no-repeat;background-position: -1px -72px ;}
+
+
+
